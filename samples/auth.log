@@ -1,0 +1,16 @@
+Oct 14 03:11:58 web01 sshd[2211]: Invalid user admin from 203.0.113.45 port 51122
+Oct 14 03:12:01 web01 sshd[2211]: Failed password for invalid user admin from 203.0.113.45 port 51122 ssh2
+Oct 14 03:12:09 web01 sshd[2214]: Failed password for deploy from 203.0.113.45 port 51130 ssh2
+Oct 14 03:12:17 web01 sshd[2214]: Failed password for deploy from 203.0.113.45 port 51130 ssh2
+Oct 14 03:12:26 web01 sshd[2219]: Failed password for deploy from 203.0.113.45 port 51141 ssh2
+Oct 14 03:12:34 web01 sshd[2219]: Failed password for deploy from 203.0.113.45 port 51141 ssh2
+Oct 14 03:12:43 web01 sshd[2223]: Failed password for deploy from 203.0.113.45 port 51150 ssh2
+Oct 14 03:12:51 web01 sshd[2223]: Failed password for deploy from 203.0.113.45 port 51150 ssh2
+Oct 14 03:19:47 web01 sshd[2240]: Accepted password for deploy from 203.0.113.45 port 51188 ssh2
+Oct 14 03:19:47 web01 sshd[2240]: pam_unix(sshd:session): session opened for user deploy(uid=1001) by (uid=0)
+Oct 14 03:22:41 web01 sudo:   deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/sbin/useradd -m backup2
+Oct 14 03:22:41 web01 useradd[2301]: new user: name=backup2, UID=1002, GID=1002, home=/home/backup2, shell=/bin/bash
+Oct 14 03:22:55 web01 sudo:   deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/sbin/usermod -aG sudo backup2
+Oct 14 03:22:55 web01 usermod[2307]: add 'backup2' to group 'sudo'
+Oct 14 03:22:55 web01 usermod[2307]: add 'backup2' to shadow group 'sudo'
+Oct 14 08:02:13 web01 sshd[3110]: Accepted publickey for ops from 192.0.2.10 port 40022 ssh2

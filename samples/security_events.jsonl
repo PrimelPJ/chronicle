@@ -1,0 +1,11 @@
+{"EventID": 4625, "TimeCreated": "2026-10-14T03:40:02.1234567Z", "Computer": "WS-FIN01", "EventData": {"TargetUserName": "jsmith", "IpAddress": "203.0.113.45", "LogonType": 3}}
+{"EventID": 4625, "TimeCreated": "2026-10-14T03:40:05.0000000Z", "Computer": "WS-FIN01", "EventData": {"TargetUserName": "jsmith", "IpAddress": "203.0.113.45", "LogonType": 3}}
+{"EventID": 4625, "TimeCreated": "2026-10-14T03:40:09.0000000Z", "Computer": "WS-FIN01", "EventData": {"TargetUserName": "jsmith", "IpAddress": "203.0.113.45", "LogonType": 3}}
+{"EventID": 4625, "TimeCreated": "2026-10-14T03:40:12.0000000Z", "Computer": "WS-FIN01", "EventData": {"TargetUserName": "jsmith", "IpAddress": "203.0.113.45", "LogonType": 3}}
+{"EventID": 4625, "TimeCreated": "2026-10-14T03:40:16.0000000Z", "Computer": "WS-FIN01", "EventData": {"TargetUserName": "jsmith", "IpAddress": "203.0.113.45", "LogonType": 3}}
+{"EventID": 4624, "TimeCreated": "2026-10-14T03:41:30.0000000Z", "Computer": "WS-FIN01", "EventData": {"TargetUserName": "jsmith", "IpAddress": "203.0.113.45", "LogonType": 3}}
+{"EventID": 4720, "TimeCreated": "2026-10-14T03:44:10.0000000Z", "Computer": "WS-FIN01", "EventData": {"TargetUserName": "svc_backup", "SubjectUserName": "jsmith"}}
+{"EventID": 4732, "TimeCreated": "2026-10-14T03:44:22.0000000Z", "Computer": "WS-FIN01", "EventData": {"TargetUserName": "Administrators", "MemberName": "svc_backup", "SubjectUserName": "jsmith"}}
+{"EventID": 7045, "TimeCreated": "2026-10-14T03:46:00.0000000Z", "Computer": "WS-FIN01", "EventData": {"ServiceName": "WinUpdateHelper", "ImagePath": "C:\\Users\\Public\\svc.exe"}}
+{"EventID": 1102, "TimeCreated": "2026-10-14T03:52:44.0000000Z", "Computer": "WS-FIN01", "EventData": {"SubjectUserName": "jsmith"}}
+{"EventID": 4634, "TimeCreated": "2026-10-14T03:53:00.0000000Z", "Computer": "WS-FIN01", "EventData": {"TargetUserName": "jsmith"}}
