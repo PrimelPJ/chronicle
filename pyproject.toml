@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chronicle-dfir"
+version = "0.1.0"
+description = "DFIR toolkit: unified forensic timelines, hash-chained chain of custody, and incident reports"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Primel Jayawardana" }]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+chronicle = "chronicle.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "tests"]
